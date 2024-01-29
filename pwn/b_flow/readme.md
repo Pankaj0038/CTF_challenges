@@ -16,6 +16,10 @@ It uses "gets" function which can be exploited to get sensitive information
 ```(bash)
 gcc filename.c -o output -fno-stack-protector -z execstack -no-pie -m32
 ```
+#### Requirements
+- Python
+- SocketServer module
+- pwntools library
 
 #### Run the challenge
 1. Download the "b0flow" binary file which contains the flag
@@ -27,8 +31,12 @@ gcc filename.c -o output -fno-stack-protector -z execstack -no-pie -m32
    ```(bash)
    ifconfig # for Linux
    ```
-4. Run the program "netc_file_1.py"
-5. Provide the participants
+4. Download all the requirements
+   ```(bash)
+   python -m pip install requirements.txt
+   ```
+6. Run the program "netc_file_1.py"
+7. Provide the participants
    ```(bash)
    nc {IP} 6667
    ```
