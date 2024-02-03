@@ -94,7 +94,7 @@ class Service(socketserver.BaseRequestHandler):
         def handle(self):
                 # this is where we will handle the connection , do what we want to do once someone connects 
                 print("Someone Connected")
-                io = pwn.process("./b0flow")
+                io = pwn.process("./b0flow")      #note that on server side we are running the original file where as on client side we give flag redacted file
                 self.send(io.recvline().decode())
                 self.send(io.recvline().decode())
                 self.send(io.recvline().decode())
