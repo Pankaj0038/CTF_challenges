@@ -18,7 +18,7 @@ void ret2win(){
 	printf(ANSI_COLOR_GREEN" \\___ \\  | |       / __ \\    \\   / "	 "\n");
 	printf(ANSI_COLOR_GREEN" ____) | | |____  / ____ \\    | |  "		 "\n");
 	printf(ANSI_COLOR_GREEN"|_____/  |______|/_/    \\_\\   |_|  "	 "\n");
-	printf(ANSI_COLOR_YELLOW"You need to bypass me to get the flag: "	 "\n");
+	printf(ANSI_COLOR_YELLOW"You need to overflow me to get the flag "	 "\n");
 	printf(ANSI_COLOR_RED"root" ANSI_COLOR_GREEN "@gengar:/" ANSI_COLOR_WHITE ">");
 	fflush(stdout);
 	gets(buffer);
