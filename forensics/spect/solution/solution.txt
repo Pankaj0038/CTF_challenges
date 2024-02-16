@@ -1,0 +1,3 @@
+Use any audio spectrum analyzer to analyze the audio spectrum, and there the flag is hidden
+
+SLAY{4UD10_F0R3N51C5_0O01}
