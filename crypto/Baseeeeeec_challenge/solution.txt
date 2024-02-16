@@ -1,0 +1,5 @@
+cipher text: 685oG8ZUwq4XyaaHYT7zMgBdbCRDE
+
+Encoding : base58
+
+Flag: SLAY{R34LM_0F_CIPHER}
