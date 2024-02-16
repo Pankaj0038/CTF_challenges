@@ -1,0 +1,2 @@
+I got a shell to code but I think it is'nt a shell actually . Just taking input and just print a fake flag. Can you break it's flow to capture the flag ?
+nc ip port
