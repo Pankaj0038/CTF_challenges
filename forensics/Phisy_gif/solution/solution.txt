@@ -1,0 +1,9 @@
+Check the binary (Using binwalk) where you'll get to see an elf executable file  
+
+Extract the binary in a file (Using dd , binwalk , foremost etc)
+
+check the code and modify it to get the flag
+
+
+
+flag: SLAY{1M4G3_C4N_B3_PH15Y_70O}
