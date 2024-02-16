@@ -1,0 +1,1 @@
+Use any audio spectrum analyzer to analyze the audio spectrum, and there the flag is hidden
