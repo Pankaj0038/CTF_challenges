@@ -13,3 +13,5 @@ for i in fleg:
     char2 = s[int(binary[4:],2)]
     enc += (char1 + char2)
 print(enc)
+
+# output : fdg1e4fffcg4hefde3ddf0gge3fie4gge3h0fbdbgffidae1
