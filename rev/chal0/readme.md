@@ -37,3 +37,23 @@ To reverse the code participants need to follow the steps:
 3. Then run a loop jumping 2 step at a time and add 2 binary into one 8 bit binary number
 4. COnvert the binary to character and append them in a string
 5. lastly decode the message from base64
+
+code>
+```bash
+#!/usr/bin/python3
+import base64 as b64
+import string
+s = string.ascii_lowercase[:10] + "012345"
+output = 'fdg1e4fffcg4hefde3ddf0gge3fie4gge3h0fbdbgffidae'
+nums = []
+for i in output:
+    nums.append(s.index(i))
+enc = ''
+for j in range(0,len(nums)-1,2):
+    enc += chr(int((bin(j)+bin(j+1)),2))
+
+flag = b64.b64decode(enc)
+
+print(f;ag)
+
+```
