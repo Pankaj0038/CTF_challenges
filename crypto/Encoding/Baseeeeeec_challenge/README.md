@@ -1,6 +1,6 @@
 # Basic challenge
 ---
-Encoded text : U0xBWXtRMzRWRV8wR19JUkhSREJ9
+Encoded text : U0xBWXtRMzRWRV8wR19JUkhSREJ9 <br>
 Hint: Baseeec challenge
 
 ---
